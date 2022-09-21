@@ -1,15 +1,15 @@
-body{
+body {
     color:#873e23;
-    background-image:url("/learningcss/Images/paperBackground.jpg");
+    background-image:url("/creativeproj1/Images/paperBackground.jpg");
 }
 
-img{
+img {
     width:450px;
     height:300px;
 }
 
 
-td{
+td {
     width:500px;
     text-align:center;
 }
