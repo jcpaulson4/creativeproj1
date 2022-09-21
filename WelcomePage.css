@@ -83,16 +83,14 @@ li a:hover {
 }
 
 .transbox {
-  margin: 30px;
-  background-color: #ffffff;
-  opacity: 0.3;
+  margin: 50px;
+  margin-left:400px;
+  margin-right:400px;
+  background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+  background: rgba(204, 204, 204, 0.5);
 }
 
-.transbox p{
-  margin: 5%;
-  font-weight: bold;
-  color: #000000;
-}
+
 
 #diceTab {
   float:right;
@@ -134,7 +132,8 @@ li a:hover {
 
 
 .white-text {
-  color:#CE3030;
+  color:#6B2D02;
+  font-size:30px;
 }
 
 
