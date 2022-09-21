@@ -3,7 +3,7 @@ body {
     background-image:url("/creativeproj1/Images/paperBackground.jpg");
 }
 
-img {
+.normal-image {
     width:450px;
     height:300px;
 }
@@ -38,7 +38,7 @@ li a:hover {
   background-color: #04AA6D;
 }
 
-div{
+.normal-div {
   padding: 50px;
   margin: 20px;
 }
@@ -115,6 +115,12 @@ div{
   font-family: "Papyrus", "Garamond", sans-serif;
   border: 15px solid black;
 }
+
+
+.white-text {
+  color: white;
+}
+
 
 @media only screen and (hover: none) {
   img {
