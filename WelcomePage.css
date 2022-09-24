@@ -105,6 +105,12 @@ li a:hover {
   float:right;
 }
 
+#VariamanSpadagenti {
+  font-family: "Brush Script MT", "Garamond", sans-serif;
+  font-size:30px;
+  color:black;
+}
+
 #Alexstrasza {
   color:red;
   font-family: "Papyrus", "Garamond", sans-serif;
