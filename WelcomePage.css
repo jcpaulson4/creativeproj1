@@ -3,6 +3,10 @@ body {
     background-image:url("/creativeproj1/Images/paperBackground.jpg");
 }
 
+p {
+  margin:1em;
+}
+
 .normal-image {
     width:450px;
     height:300px;
