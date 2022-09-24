@@ -80,6 +80,7 @@ li a:hover {
 .pageHeader {
   text-align:center;
   font-weight:bold;
+  margin-top:30px;
 }
 
 .img-responsive {
