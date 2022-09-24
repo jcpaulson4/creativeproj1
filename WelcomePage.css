@@ -241,3 +241,61 @@ li a:hover {
   margin: 0px;
   border-radius:0.3em;
 }
+
+#dragon-logo {
+  width: 30px;
+}
+
+.hide-mobile {
+  display: flex;
+}
+
+.show-mobile {
+  display: none;
+}
+
+@media screen and (hover: none) {
+  body {
+    margin:0 0;
+  }
+  
+  .tiny-img {
+    height: 3em;
+  }
+  
+  #dragon-logo {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .hide-mobile {
+    display: none;
+  }
+  
+  .show-mobile {
+    display: flex;
+  }
+  
+  .d-small {
+    font-size: 28px;
+  }
+  
+  .g-column {
+    flex: 50%;
+    max-width: 50%;
+    padding: 0 4px;
+  }
+  
+  .d-dice {
+    max-width: 65%;
+  }
+  
+  #VariamanSpadagenti {
+    font-family: "Brush Script MT", "Garamond", sans-serif;
+    font-size: 60px;
+    color:black;
+  }
+}
+
+
+
