@@ -200,6 +200,10 @@ li a:hover {
   width: 100%;
 }
 
+.no-margin {
+  margin:0px;
+}
+
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
   .g-column {
@@ -214,4 +218,10 @@ li a:hover {
     flex: 100%;
     max-width: 100%;
   }
+}
+
+.tiny-img {
+  width: 3em;
+  margin: 0px;
+  border-radius:0.3em;
 }
