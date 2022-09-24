@@ -161,7 +161,6 @@ li a:hover {
   width:700px;
   height:600px;
   margin-left:30px;
-  margin-bottom:50px;
   }
   
   #diceTab {
@@ -182,6 +181,7 @@ li a:hover {
 
 .wowDragonTab {
   margin:20px;
+  padding-bottom:20px;
 }
 
 .wowDragonHeader {
