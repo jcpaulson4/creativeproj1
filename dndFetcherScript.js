@@ -100,7 +100,10 @@ document.getElementById("submitButton").addEventListener("click", function(event
                     console.log(spellJson.name)
                     spellInfo += "<text>" + spellJson.name + "</text><br>";
                     console.log(spellInfo);
+                    info += spellInfo;
                 });
+                console.log(spellInfo);
+                info += spellInfo;
                 info += "</p><br>";
       	    }
       	}
