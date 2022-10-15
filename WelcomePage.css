@@ -351,3 +351,7 @@ li a:hover {
 .spell {
   text-align:left;
 }
+
+form {
+  margin: 2em;
+}
