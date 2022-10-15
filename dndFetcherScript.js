@@ -105,5 +105,7 @@ document.getElementById("submitButton").addEventListener("click", function(event
       	
       	info += "</div>";
       	document.getElementById("monsterData").innerHTML = info;
+    }).catch((error) => {
+        document.getElementById("monsterData").innerHTML = "<h2 class=\"monsterHeader\">Monster Not Found :(</h2>";
     });
 });
