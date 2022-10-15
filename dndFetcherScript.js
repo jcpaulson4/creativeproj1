@@ -89,22 +89,11 @@ document.getElementById("submitButton").addEventListener("click", function(event
       	    {
       	        //another fetch for spells
       	        const url = json.spell_list[i];
-                console.log(url);
-                let spellInfo = "";
-                info += "<p class=\"spell\">";
-                fetch(url).then(function(response) {
-                    return response.json();
-                }).then(function(spellJson) {
-                    console.log("spell: ");
-                    console.log(spellJson);
-                    console.log(spellJson.name)
-                    spellInfo += "<text>" + spellJson.name + "</text><br>";
-                    console.log(spellInfo);
-                    info += spellInfo;
-                });
-                console.log(spellInfo);
-                info += spellInfo;
-                info += "</p><br>";
+      	        let spellName = url.substring(30);
+      	        let nextIndex = spellName.indexOf('/');
+      	        spellName = spellName.substring(0, nextIndex);
+                let link = "https://www.dndbeyond.com/spells/" + spellName;
+                info += "<a href=\"" + link + "\">" + spellName + "</a><br>";
       	    }
       	}
       	info += "<br><br>";
